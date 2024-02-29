@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(iphone.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+.images{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 600;
+    color: ;
+}
+.content h1{
+    font-size: 64px;
+    color: goldenrod;
+}
+.content p span{
+    color: #ffffff;
+}
+.content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
